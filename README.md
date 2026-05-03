@@ -248,6 +248,16 @@ plotProfile (Show advanced options: Yes → Make one plot per group: Yes)
 
 Methylation dip at CpG island centers — consistent with promoter silencing pattern across samples.
 
+![Gene Methylation Profiles Across Samples](results/WGBS/methyl_level.png)
+
+> *Figure 4: Methylation profiles around the TSS for multiple samples. A common dip near the TSS suggests reduced promoter methylation across samples.*
+
+**Key observations**
+- Methylation decreases near the **TSS** in all samples
+- **MCF7** shows the highest methylation
+- **NB1/NB2** show lower methylation
+- Tumor samples show intermediate profiles
+
 ---
 
 ## 7. Metilene
