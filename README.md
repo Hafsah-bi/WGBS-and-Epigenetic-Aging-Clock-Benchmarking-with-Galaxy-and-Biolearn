@@ -551,6 +551,26 @@ for ds_id in dataset_ids:
 - Blue = biological age deceleration (predicted < chronological)
 - Consistent row color across clocks = strong biological aging signal in that sample
 
+![Clock Deviation Heatmap for GSE120307](results/Epigenetic%20Aging%20Clocks/Clock%20Deviation%20Heatmap%20for%20GSE120307.png)
+
+> *Figure 3: Deviation heatmap across aging clocks for GSE120307.*
+
+**Key observations**
+- Samples show **variable age deviation** across clocks
+- Some individuals appear **epigenetically older** across multiple models
+- Others show **negative deviation**, suggesting younger biological age
+- **DunedinPACE** follows a more distinct pattern than the other clocks
+
+![Clock Deviation Heatmap for GSE41169](results/Epigenetic%20Aging%20Clocks/Clock%20Deviation%20Heatmap%20for%20GSE41169.png)
+
+> *Figure 4: Deviation heatmap across aging clocks for GSE41169.*
+
+**Key observations**
+- Samples show **variable age deviation** across clocks
+- Some individuals appear **epigenetically older** across multiple models
+- Others show **negative deviation**, suggesting younger biological age
+- **YingDamAge** and **DunedinPACE** follow more distinct patterns
+
 ---
 
 ### 8. Visualize Aging Clock Predictions vs Chronological Age (Both Datasets)
