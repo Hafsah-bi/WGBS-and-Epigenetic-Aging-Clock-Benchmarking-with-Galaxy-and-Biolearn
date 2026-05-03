@@ -508,8 +508,7 @@ for ds_id in dataset_ids:
 - PC-based clocks typically cluster with their parent clocks
 
 ![Correlation Matrix Across Aging Clocks for GSE120307](results/Epigenetic Aging Clocks/Correlation Matrix Across Aging Clocks for GSE120307.png)
-
-> *Figure 5: Correlation matrix across aging clocks for GSE120307.*
+> *Figure 1: Correlation matrix across aging clocks for GSE120307.*
 
 **Key observations**
 - Most age clocks are **strongly positively correlated**
