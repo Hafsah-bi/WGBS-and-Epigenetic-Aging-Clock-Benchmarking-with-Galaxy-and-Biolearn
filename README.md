@@ -600,10 +600,6 @@ pip install biolearn numpy pandas matplotlib scikit-learn scipy
 
 Open in **Google Colab** (recommended) or local Jupyter:
 
-```bash
-jupyter notebook Untitled0.ipynb
-```
-
 Run all cells top to bottom. Dataset download (~500 MB) requires internet on first run.
 
 ---
