@@ -198,6 +198,15 @@ GC content will appear skewed. **This is expected.**
 4. **plotProfile:**
    - Matrix file: output of **computeMatrix**
 
+![Methylation Profile Around TSS](results/WGBS/methylation_output.png)
+
+> *Figure 3: Methylation levels across regions surrounding the TSS. A dip near the TSS suggests lower methylation at gene promoters.*
+
+**Key observations**
+- Methylation is **higher away from the TSS**
+- Methylation **drops near the TSS**
+- The profile suggests **promoter hypomethylation**
+
 ### Part B — Multi-Sample Precomputed Data
 
 **Chromosome naming issue:** Ensembl uses `1`, UCSC uses `chr1`. Convert using:
