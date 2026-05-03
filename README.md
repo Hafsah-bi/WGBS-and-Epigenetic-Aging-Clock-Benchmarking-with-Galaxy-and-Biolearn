@@ -517,6 +517,16 @@ for ds_id in dataset_ids:
 - **DunedinPACE** is more distinct from the others
 - **YingDamAge** shows comparatively weaker agreement
 
+![Correlation Matrix Across Aging Clocks for GSE41169](results/Epigenetic%20Aging%20Clocks/Correlation%20Matrix%20Across%20Aging%20Clocks%20for%20GSE41169.png)
+
+> *Figure 2: Correlation matrix across aging clocks for GSE41169.*
+
+**Key observations**
+- Most clocks are **strongly positively correlated**
+- **Chronological age** agrees well with the main age-prediction models
+- **DunedinPACE** is more distinct from the others
+- **YingDamAge** shows comparatively weaker agreement
+
 ---
 
 ### 7. Visualize Clock Deviation Heatmap (Both Datasets)
