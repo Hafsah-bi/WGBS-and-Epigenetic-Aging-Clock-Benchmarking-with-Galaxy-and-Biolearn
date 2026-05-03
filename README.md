@@ -590,6 +590,26 @@ for ds_id in dataset_ids:
 
 One scatter panel per clock per dataset with regression line and R² annotation.
 
+![Predicted Age vs Chronological Age for GSE120307](results/Epigenetic%20Aging%20Clocks/Predicted%20Age%20vs%20Chronological%20Age%20for%20GSE120307.png)
+
+> *Figure 5: Predicted age versus chronological age for multiple aging clocks in GSE120307.*
+
+**Key observations**
+- Most models show **increasing predicted age** with chronological age
+- Standard age-prediction clocks align better with the age trend
+- `YingDamAge` is the most distinct and least aligned
+- Model spread highlights differences in prediction performance
+
+![Predicted Age vs Chronological Age for GSE41169](results/Epigenetic%20Aging%20Clocks/Predicted%20Age%20vs%20Chronological%20Age%20for%20GSE41169.png)
+
+> *Figure 6: Predicted age versus chronological age for multiple aging clocks in GSE41169.*
+
+**Key observations**
+- Most models show **increasing predicted age** with chronological age
+- Standard age clocks align well with the age trend
+- `YingDamAge` is the most variable and distinct
+- Model spread reflects differences in prediction performance
+
 ---
 
 ### 9. Compute Quantitative Benchmark Metrics
@@ -644,8 +664,25 @@ plt.tight_layout()
 plt.show()
 ```
 
-- **MAE plot:** lower bars = better predictors
-- **Pearson r plot:** taller bars = stronger correlation with chronological age
+![Mean Absolute Error Across Aging Clocks](results/Epigenetic%20Aging%20Clocks/Mean%20Absolute%20Error%20Across%20Aging%20Clocks.png)
+
+> *Figure 7: Mean absolute error across aging clocks for GSE120307 and GSE41169.*
+
+**Key observations**
+- `Horvathv2` has the **lowest error**
+- `Horvathv1` and `Hannum` also perform well
+- `YingDamAge` has the **highest error**
+- Error differs between datasets, showing **dataset-dependent performance**
+
+![Correlation with Chronological Age Across Aging Clocks](results/Epigenetic%20Aging%20Clocks/Correlation%20with%20Chronological%20Age%20Across%20Aging%20Clocks.png)
+
+> *Figure 8: Correlation with chronological age across aging clocks for GSE120307 and GSE41169.*
+
+**Key observations**
+- `Horvathv2` shows the **strongest correlation**
+- Most standard clocks have **high positive correlation**
+- `YingDamAge` has the **weakest correlation**
+- Performance is broadly similar across datasets for most models
 
 ---
 
