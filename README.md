@@ -507,7 +507,8 @@ for ds_id in dataset_ids:
 - White/blue = low or negative correlation (clocks diverge)
 - PC-based clocks typically cluster with their parent clocks
 
-![Correlation Matrix Across Aging Clocks for GSE120307](results/Epigenetic Aging Clocks/Correlation Matrix Across Aging Clocks for GSE120307.png)
+![Correlation Matrix Across Aging Clocks for GSE120307](results/Epigenetic%20Aging%20Clocks/Correlation%20Matrix%20Across%20Aging%20Clocks%20for%20GSE120307.png)
+
 > *Figure 1: Correlation matrix across aging clocks for GSE120307.*
 
 **Key observations**
