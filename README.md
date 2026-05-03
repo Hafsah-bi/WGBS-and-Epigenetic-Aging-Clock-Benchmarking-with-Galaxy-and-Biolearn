@@ -134,12 +134,15 @@ GC content will appear skewed. **This is expected.**
 
 3. Inspect SVG diagnostic plots output
 
-### Interpreting Bias Plot
+![Methylation Bias Plot](results/WGBS/methylation_bias_example_data.png)
 
-- Roughly uniform methylation across read positions = acceptable
-- Spikes at read start/end → consider trimming
-- ±5% variation is normal; trim only if clearly biased
-- Example trim: strand 1 → positions 0–145; strand 2 → positions 6–149
+> *Figure 2: CpG methylation bias across read positions in WGBS data. Methylation is largely stable, with only minor variation at the read ends.*
+
+**Key observations**
+- **CpG methylation** stays around `~70–75%`
+- **#1 and #2** follow similar trends
+- Slight bias appears near the read ends
+- Overall bias is low
 
 ---
 
