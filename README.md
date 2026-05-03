@@ -72,6 +72,16 @@ GC content will appear skewed. **This is expected.**
 
 > Bisulfite converts unmethylated cytosines to uracil (read as T). Methylated C remains C. Normal QC tools flag this as an error — it is not.
 
+![Falco Per Base Sequence Content](results/WGBS/methylation_falco.png)
+
+> *Figure 1: Per-base sequence content from Falco for WGBS data. The unusual base distribution is expected after bisulfite conversion.*
+
+**Key observations**
+- **Status**: `fail`
+- **T** is highly enriched
+- **C** is strongly depleted
+- This is **normal for WGBS**
+
 ---
 
 ## 3. Alignment (bwameth)
