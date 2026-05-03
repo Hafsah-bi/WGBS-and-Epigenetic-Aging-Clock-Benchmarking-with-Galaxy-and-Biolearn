@@ -507,6 +507,16 @@ for ds_id in dataset_ids:
 - White/blue = low or negative correlation (clocks diverge)
 - PC-based clocks typically cluster with their parent clocks
 
+![Correlation Matrix Across Aging Clocks for GSE120307](results/Epigenetic Aging Clocks/Correlation Matrix Across Aging Clocks for GSE120307.png)
+
+> *Figure 1: Correlation matrix across aging clocks for GSE120307.*
+
+**Key observations**
+- Most age clocks are **strongly positively correlated**
+- **Chronological age** aligns well with major age-prediction models
+- **DunedinPACE** is more distinct from the others
+- **YingDamAge** shows comparatively weaker agreement
+
 ---
 
 ### 7. Visualize Clock Deviation Heatmap (Both Datasets)
