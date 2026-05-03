@@ -161,7 +161,7 @@ GC content will appear skewed. **This is expected.**
 **Tools:** `Wig/BedGraph-to-bigWig`, `computeMatrix` v3.5.4, `plotProfile` v3.5.4  
 **Goal:** Plot methylation levels around CpG islands.
 
-### Part A — Your Extracted Data
+### Part A — For Extracted Data
 
 1. **Convert to bigWig:**
    - Tool: **Wig/BedGraph-to-bigWig**
