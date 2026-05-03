@@ -8,7 +8,7 @@ The repository presents two complementary epigenetics analyses: WGBS processing 
 
 ---
 
-## 📋 Overview
+## Overview
 
 Whole Genome Bisulfite Sequencing (WGBS) pipeline on Galaxy covering:
 
